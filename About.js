@@ -26,8 +26,8 @@ function About()
     layPub.AddChild( img );
     
     //Create a text with formatting.
-    var text = "<p>Local & International: <a href=tel:+12156130874>tel:+12156130874</><br> " + 
-        "<a href=https://www.biketours.com/?gad_source=1&gclid=Cj0KCQiAwOe8BhCCARIsAGKeD57kr9W4LwDTwXM0EBrsWVKnf67-hwrcocnMenEqCr0EX0E7E1RapAoaAquvEALw_wcB>Visit the Website</a></p>";
+    var text = "<p>Local & International:<br> <a href=tel:+12156130874>tel:+12156130874</><br> Toll Free: <br /><a href=tel:+18332160635>tel:+18332160635</a><br />" + 
+        "<br /><hr /><a href=https://www.biketours.com/?gad_source=1&gclid=Cj0KCQiAwOe8BhCCARIsAGKeD57kr9W4LwDTwXM0EBrsWVKnf67-hwrcocnMenEqCr0EX0E7E1RapAoaAquvEALw_wcB>Visit the Website</a><br /></p><br />";
     var txt = app.CreateText( text, 0.8, -1, "Html,Link" );
     txt.SetPadding( 0.03, 0.03, 0.03, 0 );
     txt.SetTextSize( 18 );
